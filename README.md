@@ -4,38 +4,19 @@
   </a>
 </p>
 
-This template is similar to create-react-app but it's meant for 4Geeks Academy students.
+**Let's code our first game!**
 
-##### Download the boilerplate using git
+Create a Tictactoe in React JS. Remember to follow the recommended workflow to start coding:
 
-```
-$ git clone https://github.com/4GeeksAcademy/react-hello.git
-$ cd react-hello
-```
+- Design your sitemap: How many pages/views?
+- Designing your wireframe: What components and where?
+- Start coding your components only rendering "Hello world" on each of them (to make sure they work).
+- Create a list of all the possible user and system interactions (events) that occure during runtime (for example: The user clicks on a button to start the game)
+- Create a javascript functions that will handle each of those events.
+- Console.log on each of those funtions to make sure they are being called.
 
-##### and install the npm package:
-```
-$ npm install
-```
-
-## Start coding!
-
-For Windows, Mac, Linux or Gitpod, start the webpack server with live reload:
-- `$ npm run start`
-
-You can update the `styles/index.scss` or `js/index.js` depending on your needs.
-Add more files into your, `./src/js/components` or styles folder as you need them.
-
-## Publish your website!
-
-This boilerplate is 100% compatible with the free [github pages](https://pages.github.com/) and [vercel](https://vercel.com/) hosting.
-
-It takes just 2 minutes to deploy, [click here to start the process](https://github.com/4GeeksAcademy/react-hello/blob/master/docs/DEPLOY.md).
-
-## Other features
-
-- Automatic Code Formatting: Use of [Prettier](https://prettier.io/) for automatic code indentation and formatting.
-- Error reporting: Use of [eslint](https://eslint.org/) for better error reporting.
-- Hot Deploy: Use of [Webpack Development Server](https://webpack.js.org/configuration/dev-server/) for hot deploy and live reload.
-- One-command publish of the code to github pages with `npm run deploy:github`.
-- Babel 7 (really fast).
+**Concepts we are using:**
+- State of the components (global variables)
+- Props
+- Render method
+- The function for checking the winner is a great learning algorithm
